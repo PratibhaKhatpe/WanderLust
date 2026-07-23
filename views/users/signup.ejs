@@ -1,0 +1,29 @@
+
+<body>
+    <div class="row-mt-3">
+        <div class="col-6 offset-3"><h1>SignUp on WanderLust</h1></div>
+        <div class="col-6 offset-3">
+            <form action="/signup" method="POST" class="needs-validation" novalidate>
+                <div class="mb-3 mt-4">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" id="username" placeholder="Create your username" name="username" class="form-control" required>
+                    <div class="valid-feedback">Done!</div>
+                    <div class="invalid-feedback">Please enter username!</div>
+                </div>
+                <div class="mb-3 mt-4">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" name="email" class="form-control" required>
+                    <div class="valid-feedback">Done!</div>
+                    <div class="invalid-feedback">Please enter email!</div>
+                </div>
+                <div class="mb-3 mt-4">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" id="password" placeholder="Enter password" name="password" class="form-control" required>
+                    <div class="valid-feedback">Done!</div>
+                    <div class="invalid-feedback">Please enter password!</div>
+                </div>
+                <button class="btn btn-success">SignUp</button>
+            </form>
+        </div>
+    </div>
+</body>
