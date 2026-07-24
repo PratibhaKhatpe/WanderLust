@@ -2,7 +2,7 @@ const mongoose=require("mongoose");
 const Listing=require("../models/listing.js");
 const initData=require("./data.js");
 
-const mongoURL='mongodb://127.0.0.1:27017/wanderLust';
+const mongoURL=process.env.ATLASDB_URL;
 
 main().then(()=>{
     console.log("connected to DB.");
